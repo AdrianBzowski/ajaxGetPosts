@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.single-post {
+	padding:20px;
+    border-bottom: 1px solid #6c6c6c;
+}
+.single-post h2 {
+    text-transform: uppercase;
+}
+
+.single-post p {
+    color: #343434;
+}
+
+.single-post footer {
+    background-color: cornflowerblue;
+    color:#fff;
+    font-size: 0.8em;
+}
+
+#get_posts {
+    background-color: sandybrown;
+    color:#fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1.2em;
+    padding 5px;
+    border: 0px solid transparent;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+#get_posts:hover {
+	background-color: #26a700;
+}
